@@ -5,7 +5,7 @@
 #include <iostream>
 #include <unordered_map>
 
-#include <cbpro++/util/httpclient.h>
+#include "../../include/cbpro++/util/httpclient.h"
 
 HttpClient::HttpClient(std::string &apiKey, std::string &apiSecret, std::string &passphrase,
                        bool mode) : apiKey(apiKey),
